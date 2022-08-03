@@ -1,0 +1,57 @@
+.heartContainer {
+  //   animation: fadeIn 2s linear;
+  transition: all 0.5s;
+
+  svg {
+    height: 200px;
+    width: 200px;
+  }
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.messageModal {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 100vh;
+  width: 100vw;
+  z-index: 99;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+  background-size: cover;
+}
+
+.messageText {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  font-size: 25px;
+  z-index: 100;
+  color: #F66748;
+}
