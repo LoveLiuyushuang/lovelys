@@ -5,7 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "private": true,
-  "homepage": "https://LoveLiuyushuang.github.io/lovelys",
+  "homepage": "./",
   "scripts": {
     "start": "webpack-dev-server --config config/webpack.dev.js",
     "build": "webpack --config config/webpack.prod.js",
