@@ -73,7 +73,7 @@ const Heart = props => {
           <>
             <div style={{ backgroundImage: `url(${href})` }} className="messageModal" onClick={onClickModal} />
             <div className="messageText" onClick={onClickModal}>
-              {`你好哇刘雨霜，我已经喜欢你 ${currentDiffDateObj.diffDay} 天 ${currentDiffDateObj.diffHour} 小时 ${currentDiffDateObj.diffMinutes} 分钟 ${currentDiffDateObj.diffSeconds} 秒了，我想这不会停止`}
+              {`刘雨霜，我已经喜欢你 ${currentDiffDateObj.diffDay} 天 ${currentDiffDateObj.diffHour} 小时 ${currentDiffDateObj.diffMinutes} 分钟 ${currentDiffDateObj.diffSeconds} 秒了，我想这不会停止`}
             </div>
           </>
         )}
